@@ -5,7 +5,7 @@ var obj = JSON.parse(st)
 
 
 
-for(var i = 0; i < 6; i++){
+for(var i = 0; i < obj.length; i++){
     
     var body = document.querySelector("body")
     body.style.backgroundColor = "#6B8E23"
